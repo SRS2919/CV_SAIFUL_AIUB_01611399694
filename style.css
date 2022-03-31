@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    background-color: rgb(247, 144, 144);
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url(images/background-cv.jpg);
+    background-attachment:fixed;
+    background-position: center; */
+    background:url("images/background-cv.jpg") fixed center;
+    background-repeat: no-repeat;
+
+    
+}
+.container{
+    max-width: 1000px;
+    background-color: #847A9F;
+    margin: 0 auto; /*margin 0 Means top and bottom no margin and auto means left and right divided same space */
+    padding: 20px;
+}
+header{
+
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 100%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(23, 26, 25);
+}
+
+.header-contact{
+    float: right;
+    padding:20px;
+}
+
+.header-contact a{
+
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    
+}
+
+.header-contact a:hover{
+    text-transform: uppercase;
+    color: blue;
+}
+
+.div-clear{
+    clear: both;
+}
+hr{
+    color: rgb(40, 13, 196);
+   border: 5px solid;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+    
+}
+.Career-section{
+
+     
+
+}
+.content{
+
+}
+
+.left-div{
+
+    width: 30%;
+    float: left;
+     
+
+}
+.right-div{
+    
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    color: antiquewhite;
+    border: solid;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+.footer-class{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.footer-class a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-class p{
+    color: aliceblue;
+    margin: 10px;
+}
+.footer-class a:hover{
+    color: blue;
+
+}
+
+.right-div-ref a{
+    text-decoration: none;
+     color: black;
+     
+}
+
+.right-div-ref a:hover{
+    color: blue;
+     
+}
+
+.right-div-left{
+    float: left;
+    width: 50%;
+    margin-right: 5px;
+}
+.right-div-right{
+    float: right;
+    width: 50%;
+
+
+}
+.second-right-div-left{
+    float: left;
+    width: 50%;
+    margin-top: 25px ;
+    margin-right: 5px;
+
+}
+
+.live-marquee{
+    color: rgb(238, 233, 232);
+    position:fixed;
+    
+}
+.background-cv{
+    display: fixed;
+}
+
+
+
